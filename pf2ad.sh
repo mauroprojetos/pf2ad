@@ -8,6 +8,7 @@ if [ "$(cat /etc/version)" != "2.4.4-RELEASE-p2" ]; then
 	exit 2
 fi
 
+
 ASSUME_ALWAYS_YES=YES
 export ASSUME_ALWAYS_YES
 
