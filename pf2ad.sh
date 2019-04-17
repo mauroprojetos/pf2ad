@@ -3,8 +3,8 @@
 VERSION='20180302001' # Welcome to Portugal
 
 # Verifica versao pfSense
-if [ "$(cat /etc/version)" != "2.4.4-RELEASE-p2" ]; then
-	echo "ERROR: You need the pfSense version 2.4.4-RELEASE-p2 to apply this script"
+if [ "$(cat /etc/version)" != "pfSense-2.4.4-RELEASE-p2" ]; then
+	echo "ERROR: You need the pfSense version pfSense-2.4.4-RELEASE-p2 to apply this script"
 	exit 2
 fi
 
